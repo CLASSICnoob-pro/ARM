@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'P1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"p1.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"gsm.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2c_eeprom.o"'
+### List of Objects: adding '"l293d.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"whole_keypad.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "p1.o" "delay.o" "gsm.o" "i2c.o" "i2c_eeprom.o" "l293d.o" "lcd.o" "uart0.o" "whole_keypad.o" --strict --scatter "P1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\P1.map" -o "P1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'P1.axf'
+### ADS-LD Command File: 'P1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'P1.lnp', Handle=0x00000A30
+### Writing '.lnp' file
+### ADS-LD Command file 'P1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

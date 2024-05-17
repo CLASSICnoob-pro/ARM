@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'Count_Keypad_test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"src.o"'
+### List of Objects: adding '"delay.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "src.o" "delay.o" --strict --scatter "Count_Keypad_test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Count_Keypad_test.map" -o "Count_Keypad_test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Count_Keypad_test.axf'
+### ADS-LD Command File: 'Count_Keypad_test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Count_Keypad_test.lnp', Handle=0x0000051C
+### Writing '.lnp' file
+### ADS-LD Command file 'Count_Keypad_test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

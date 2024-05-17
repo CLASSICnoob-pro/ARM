@@ -1,0 +1,9 @@
+gsm.o: ..\..\..\GSM\GSM.c
+gsm.o: ..\..\..\GSM\GSM.h
+gsm.o: C:\Keil\ARM\INC\Philips\lpc21xx.h
+gsm.o: C:\Keil\ARM\INC\Philips\types.h
+gsm.o: C:\Keil\ARM\INC\Philips\delay.h
+gsm.o: C:\Keil\ARM\INC\Philips\types.h
+gsm.o: ..\..\..\GSM\uart0.h
+gsm.o: C:\Keil\ARM\INC\Philips\types.h
+gsm.o: C:\Keil\ARM\RV31\INC\stdlib.h

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "p1.o" "delay.o" "gsm.o" "i2c.o" "i2c_eeprom.o" "l293d.o" "lcd.o" "uart0.o" "whole_keypad.o" --strict --scatter "P1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\P1.map" -o "P1.axf"

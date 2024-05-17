@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'Internal_ADC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"internal_adc.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"delay.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "internal_adc.o" "uart0.o" "delay.o" --strict --scatter "Internal_ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Internal_ADC.map" -o "Internal_ADC.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Internal_ADC.axf'
+### ADS-LD Command File: 'Internal_ADC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Internal_ADC.lnp', Handle=0x000008E4
+### Writing '.lnp' file
+### ADS-LD Command file 'Internal_ADC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

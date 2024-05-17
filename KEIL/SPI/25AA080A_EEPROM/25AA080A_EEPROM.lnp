@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "25aa080a_eeprom.o" "uart0.o" "delay.o" --strict --scatter "25AA080A_EEPROM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\25AA080A_EEPROM.map" -o "25AA080A_EEPROM.axf"

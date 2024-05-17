@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\laptop\HSSD\Vector\ARM\KEIL\LCD\LCD.uvproj
+Project File Date:  03/16/2024
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+LCD.H(18): warning:  #1-D: last line of file ends without a newline
+LCD.c(10): warning:  #223-D: function "delay_milli" declared implicitly
+LCD.c(37): warning:  #223-D: function "delay_milli" declared implicitly
+LCD.c(78): warning:  #1-D: last line of file ends without a newline
+linking...
+LCD.axf: Error: L6218E: Undefined symbol delay_milli (referred from lcd.o).
+LCD.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+LCD.c(10): warning:  #223-D: function "delay_milli" declared implicitly
+LCD.c(37): warning:  #223-D: function "delay_milli" declared implicitly
+LCD.c(78): warning:  #1-D: last line of file ends without a newline
+linking...
+LCD.axf: Error: L6218E: Undefined symbol delay_milli (referred from lcd.o).
+LCD.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+LCD.c(10): warning:  #223-D: function "delay_milli" declared implicitly
+LCD.c(37): warning:  #223-D: function "delay_milli" declared implicitly
+linking...
+LCD.axf: Error: L6218E: Undefined symbol delay_milli (referred from lcd.o).
+LCD.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+C:\Keil\ARM\INC\Philips\delay.h(35): warning:  #1-D: last line of file ends without a newline
+linking...
+LCD.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+linking...
+LCD.axf: Error: L6218E: Undefined symbol main (referred from rtentry2.o).
+Target not created

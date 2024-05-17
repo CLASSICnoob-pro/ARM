@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "num_keypad.o" "lcd.o" "uart0.o" "delay.o" --strict --scatter "NUM_KEYPAD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\NUM_KEYPAD.map" -o "NUM_KEYPAD.axf"

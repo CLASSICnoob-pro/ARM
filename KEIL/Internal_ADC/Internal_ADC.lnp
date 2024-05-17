@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "internal_adc.o" "uart0.o" "delay.o" --strict --scatter "Internal_ADC.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Internal_ADC.map" -o "Internal_ADC.axf"
